@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    opacity: 0.9;
+    color: seashell;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+ display: flex;
+ position: fixed;
+ height: 69px;
+ align-items: center;
+ width: 100%;
+ border-bottom: 1px solid seashell;
+ justify-content: space-between;
+}
+
+.logo {
+    margin-left: 10px;
+    z-index: 4;
+}
+
+ul {
+    margin-right: 10px;
+}
+li {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.our-mission {
+    margin-top: 69px;
+    background-image: url(Resources/Images/img-mission-background.jpg);
+}
